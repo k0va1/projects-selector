@@ -13,5 +13,5 @@ then
     i3-msg "workspace 3;exec alacritty -e zsh -c '$tmuxinator start $selected_project && zsh -i' &"
     sleep 4
   fi
-  i3-msg "workspace 2;exec alacritty --working-directory=$working_dir -e $EDITOR .;"
+  i3-msg "workspace 2;exec alacritty --working-directory=$working_dir -e $EDITOR;"
 fi
